@@ -52,3 +52,29 @@ The CAD framework demonstrated strong robustness against spoofing-based manipula
 ---
 
 ## Project Structure
+cad-lidar-anomaly-detection/
+│
+├── src/
+│ ├── attacker_rc.py # LiDAR attack simulation (Spoof / Remove)
+│ ├── cad_detector.py # Cross-sensor anomaly detection logic
+│ ├── eval.py # Basic evaluation
+│ ├── eval_advanced.py # Advanced performance analysis
+│ ├── occupancy_map.py # Grid mapping implementation
+│ ├── perception.py # LiDAR perception modeling
+│ └── simulation.py # End-to-end simulation pipeline
+│
+├── demo_spyder.py # Example execution script
+├── requirements.txt # Python dependencies
+└── env.yml # Conda environment configuration
+
+
+---
+
+## Installation
+
+Using pip:
+
+```bash
+pip install -r requirements.txt
+
+
